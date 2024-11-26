@@ -1,0 +1,33 @@
+.banner__titulo{
+    color: #fdfdfd;
+    font-family: 'lora', sans-serif;
+    font-weight: 400;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    text-shadow: 0.1px 1px rgba(247, 237, 237, 0.514);
+    top: 30%;
+    transform: translate(-50%, -30%);
+    width: 100%;
+
+    
+}
+
+
+@media screen and (min-width:0){
+    .banner__titulo{
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .banner__titulo{
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (min-width: 992px){
+    .banner_titulo{
+        font-size: 1.6rem;
+    }
+}

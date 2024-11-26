@@ -1,0 +1,9 @@
+.menu__link{
+    text-decoration: none;
+    color: #fdfdfd;
+    transition: all 1s;
+}
+
+.menu__link:hover{
+    color: red;
+}
